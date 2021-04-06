@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+
+  --color-light-grey: rgb(222, 222, 222);
+  --color-dim-grey: rgb(78, 110, 142);
+  --color-dark-grey: rgb(58, 81, 105);
+  --color-yellow: #ffcc32;
+  --color-medium-orange: #ffa50f;
+  --color-dark-orange: #f58410;
+
+  --border-grey: 1px solid var(--color-light-grey);
+  --border-orange: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark-grey);
+  font-size: var(--text-size-subtitle);
+  font-weight: 500;
+  margin: 0.6rem;
+}
+
+a:hover {
+  text-decoration: underline var(--color-medium-orange);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+  cursor: pointer;
+}
+
+p {
+  color: var(--color-dim-grey);
+  line-height: 1.6rem;
+}
+
+h1 {
+  color: var(--color-dark-grey);
+  margin: 0;
+  font-weight: 400;
+  font-size: 3.1rem;
+  letter-spacing: 1rem;
+}
+
+h2 {
+  margin: 0.2rem;
+  color: var(--color-dim-grey);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+h3{
+  margin: 0.2rem;
+  color: var(--color-dark-grey);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.inline-link{
+  margin: 0.3rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+.round{
+  border-radius: 1rem;
+}
+
+.title-frame{
+  border-bottom: var(--border-grey);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.text-container {
+  padding: 2rem 15rem;
+  margin: 0 auto;
+  padding: 3rem 0 3rem 20rem;
+  max-width: 40rem;
+}
+
+@media(max-width: 1000px){
+  .text-container {
+    padding: 2rem 2rem;
+  }
+}
+
+.license {
+  text-align: center;
+  color: var(--color-light-grey);
+  margin-bottom: 1rem;
+}
