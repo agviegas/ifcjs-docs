@@ -1,7 +1,7 @@
 enum routes {
-    home = "/",
-    intro = "/introduction",
-    guide = "/guide",
+    home = "/ifcjs-docs/",
+    intro = "/ifcjs-docs/introduction",
+    guide = "/ifcjs-docs/guide",
     community = "https://discord.gg/hXxB8SSW"
 }
 

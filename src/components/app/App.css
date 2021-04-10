@@ -65,6 +65,12 @@ ul{
   padding:0;
 }
 
+.active-link{
+  text-decoration: underline var(--color-medium-orange);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+}
+
 .inline-link{
   margin: 0.3rem;
 }

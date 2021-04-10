@@ -4,8 +4,9 @@ import routes from "../../routes";
 import "./sidebar.css";
 
 const Sidebar: React.FC<RouteComponentProps> = ({ history }) => {
-  const isHomePath = history.location.pathname === routes.home;
-
+  const path = history.location.pathname;
+  const isHomePath = path === routes.home || path + "/" === routes.home ;
+  
   let sidebar = (
     <aside className="sidebar">
       <ul id="sidebar-index"></ul>
