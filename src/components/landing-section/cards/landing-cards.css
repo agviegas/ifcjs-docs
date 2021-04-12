@@ -16,7 +16,7 @@
     margin-left: 2rem;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1050px){
     .landing-cards{
         flex-direction: column;
         margin: 1rem 3rem;

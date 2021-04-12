@@ -100,7 +100,7 @@ ul{
   max-width: 40rem;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1050px){
   .text-container {
     padding: 2rem 2rem;
   }
