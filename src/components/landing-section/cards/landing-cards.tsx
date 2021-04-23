@@ -12,36 +12,49 @@ const LandingCards = () => {
           <img className="landing-icon" alt="speed icon" src={speed}></img>
           <h2>Native speed</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            illo, voluptatem quos sint, corporis consequatur, ipsum nihil iure
-            ut minus{" "}
+            The IFC.js parsing engine is based on WebAssembly and C++, and is
+            specifically designed to read data from large files as fast as a
+            desktop application.
           </p>
         </div>
         <div className="landing-card">
-        <img className="landing-icon" alt="multiplatform icon" src={multiplatform}></img>
+          <img
+            className="landing-icon"
+            alt="multiplatform icon"
+            src={multiplatform}
+          ></img>
           <h2>Multiplatform</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            illo, voluptatem quos sint, corporis consequatur, ipsum nihil iure
-            ut minus{" "}
+            IFC.js is compatible with any platform: web application (frontend
+            and backend), desktop applications (Windows, Mac and Linux) and
+            mobile applications (Android and iOS).
           </p>
         </div>
         <div className="landing-card">
-        <img className="landing-icon" alt="plugandplay icon" src={plugandplay}></img>
+          <img
+            className="landing-icon"
+            alt="plugandplay icon"
+            src={plugandplay}
+          ></img>
           <h2>Plug and Play</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            illo, voluptatem quos sint, corporis consequatur, ipsum nihil iure
-            ut minus{" "}
+            With IFC.js it is possible to create open BIM applications in less
+            than 100 lines of JavaScript, without needing to know how the
+            internals of the IFC schema work. Focus your efforts on what brings
+            value to your business.
           </p>
         </div>
         <div className="landing-card">
-        <img className="landing-icon" alt="paperplane icon" src={paperplane}></img>
+          <img
+            className="landing-icon"
+            alt="paperplane icon"
+            src={paperplane}
+          ></img>
           <h2>Lightweight</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            illo, voluptatem quos sint, corporis consequatur, ipsum nihil iure
-            ut minus{" "}
+            An open BIM application created with IFC.js can weigh less than 1
+            MB. This library allows the creation of web and native applications
+            with almost no impact on the final weight of the application.
           </p>
         </div>
       </div>

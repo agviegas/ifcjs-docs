@@ -54,10 +54,9 @@ function appendSubtitles(title: Heading, nextTitle: Heading, item: ListItem) {
 
 function getSubtitles(title: Heading, nextTitle: Heading) {
   const subtitles: Heading[] = [];
-  if (!nextTitle) return subtitles;
   const allSubtitles = Array.from(document.getElementsByTagName("h3"));
-  const nextTitleHeight = nextTitle.getBoundingClientRect().y;
   const currentTitleHeight = title.getBoundingClientRect().y;
+  const nextTitleHeight = nextTitle ? nextTitle.getBoundingClientRect().y : Number.MAX_SAFE_INTEGER;
   allSubtitles.forEach((subt) => {
     const currentHeight = subt.getBoundingClientRect().y;
     if (nextTitleHeight > currentHeight && currentTitleHeight < currentHeight)

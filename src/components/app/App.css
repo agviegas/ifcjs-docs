@@ -7,8 +7,8 @@ body {
   font-size: 0.9rem;
 
   --color-light-grey: rgb(222, 222, 222);
-  --color-dim-grey: rgb(78, 110, 142);
-  --color-dark-grey: rgb(58, 81, 105);
+  --color-dim-grey: #4e6e8e;
+  --color-dark-grey: #3a5169;
   --color-yellow: #ffcc32;
   --color-medium-orange: #ffa50f;
   --color-dark-orange: #f58410;
@@ -47,6 +47,7 @@ h1 {
 
 h2 {
   margin: 0.2rem;
+  margin-top: 3rem;
   color: var(--color-dim-grey);
   font-weight: 500;
   font-size: 1.2rem;
@@ -54,6 +55,7 @@ h2 {
 
 h3{
   margin: 0.2rem;
+  margin-top: 2rem;
   color: var(--color-dark-grey);
   font-weight: 500;
   font-size: 1rem;
@@ -65,14 +67,9 @@ ul{
   padding:0;
 }
 
-.active-link{
-  text-decoration: underline var(--color-medium-orange);
-  text-decoration-thickness: 0.1rem;
-  text-underline-offset: 0.3rem;
-}
-
-.inline-link{
-  margin: 0.3rem;
+canvas{
+  background-color: black;
+  min-width: 100%;
 }
 
 .centered {
@@ -87,6 +84,30 @@ ul{
   border-radius: 1rem;
 }
 
+.list-bullet{
+  padding: 0.5rem 0 0.2rem 3rem;
+}
+
+@media(max-width: 600px){
+  .list-bullet{
+    padding: 0.5rem 0 0.2rem 1.2rem;
+  }
+}
+
+.inline-icon{
+  padding: 0 0.5rem 0 0;
+}
+
+.active-link{
+  text-decoration: underline var(--color-medium-orange);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+}
+
+.inline-link{
+  margin: 0.3rem;
+}
+
 .title-frame{
   border-bottom: var(--border-grey);
   margin-bottom: 1rem;
@@ -94,15 +115,14 @@ ul{
 }
 
 .text-container {
-  padding: 2rem 15rem;
+  padding: 0rem 2rem 3rem 20rem;
   margin: 0 auto;
-  padding: 3rem 0 3rem 20rem;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 
-@media(max-width: 1050px){
+@media(max-width: 1200px){
   .text-container {
-    padding: 2rem 2rem;
+    padding: 0rem 2rem 2rem 2rem;
   }
 }
 
